@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         int[] tab = {-7,2,5,-1,4};
-        selectionSort(tab);
+        sortowanie(tab);
     }
 
-    public static void selectionSort(int[] arr) {
+    public static void sortowanie(int[] arr) {
         int n = arr.length;
 
         // Przechodzimy przez całą tablicę
